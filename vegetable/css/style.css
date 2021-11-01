@@ -1,0 +1,233 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial;
+    background: #edf2c5;
+    margin: 0 auto;
+    width: 1260px;
+    height: 940px;
+}
+
+.container {
+    margin: 0 160px;
+    width: 940px;
+    height: 880px;
+}
+
+
+/*#region header*/
+
+header {
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 18px;
+}
+
+.page-title {
+    margin-bottom: 13px;
+    width: 271px;
+    height: 36px;
+    font-size: 44px;
+    font-weight: 900;
+    color: #778a50;
+}
+
+.top-media-bar {
+    margin-bottom: 0px;
+    display: flex;
+    height: 25px;
+    gap: 10px;
+}
+
+.top-media-bar-line {
+    height: 25px;
+    width: 1px;
+    background-color: #778a50;
+}
+
+.top-media-bar-btn {
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #778a50;
+    border-radius: 3px;
+    border: solid 1px #778a50;
+    background-color: #edf2c5;
+}
+
+.top-media-bar-btn:hover {
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #edf2c5;
+    border-radius: 3px;
+    border: solid 1px #778a50;
+    background-color: #778a50;
+    cursor: pointer;
+}
+
+
+/*#endregion*/
+
+
+/*#region nav*/
+
+nav {
+    margin-bottom: 20px;
+    display: flex;
+    height: 44px;
+    padding-left: 30px;
+    border-radius: 3px;
+    background-color: #778a50;
+    gap: 60px;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 44px;
+    color: #edf2c5;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 44px;
+    color: #d6dbaa;
+    text-decoration: none;
+}
+
+
+/*#endregion*/
+
+
+/*#region pumpkin*/
+
+.img-main-pumpkin-container {
+    height: 448px;
+    margin-bottom: 30px;
+}
+
+
+/*#endregion*/
+
+
+/*#region contents*/
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+
+/*#region vegetables*/
+
+.vegetable-info-box {
+    width: 444px;
+}
+
+.vegetable-info-box-title {
+    margin-top: 0px;
+    width: 444px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: #778a50;
+    color: #edf2c5;
+    line-height: 45px;
+    padding-left: 30px;
+    border-radius: 3px;
+}
+
+.vegetable-info-box-imgs {
+    display: flex;
+    gap: 12px;
+}
+
+
+/*#endregion vegetables*/
+
+
+/*#region contact*/
+
+.contact-info-box {
+    width: 444px;
+}
+
+.contact-info-box-title {
+    margin-top: 0px;
+    width: 444px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: #778a50;
+    color: #edf2c5;
+    line-height: 45px;
+    border-radius: 3px;
+    padding-left: 30px;
+}
+
+.contact-info-box-content {
+    display: flex;
+    width: 444px;
+    height: 140px;
+    padding: 15px;
+    gap: 15px;
+    flex-direction: column;
+    border-radius: 3px;
+    background-color: #f7fbda;
+}
+
+.contact-info-box-content-desc {
+    width: 414px;
+    height: 44px;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #7d7d7d;
+}
+
+.contact-info-box-content-line {
+    width: 414px;
+    height: 10px;
+    background-color: #7d7d7d;
+}
+
+.contact-info-box-content-emailphone {
+    width: 197px;
+    height: 35px;
+    font-size: 12px;
+    line-height: 1.75;
+    color: #7d7d7d;
+}
+
+
+/*#endregion contact*/
+
+
+/*#endregion contents*/
+
+
+/*#region footer*/
+
+footer {
+    background-color: #778A50;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #edf2c5;
+    font-size: 12px;
+}
+
+
+/*#endregion*/
